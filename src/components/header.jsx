@@ -7,7 +7,7 @@ export default function Header() {
     <>
       <header
         id="header"
-        className=" text-[#ffffff] fixed top-0 left-0 bottom-0 w-[300px] bg-[#040b14]"
+        className=" text-[#ffffff] fixed top-0 left-0 bottom-0 w-[300px] bg-[#040b14] px-4"
       >
         {/* <i class="bi bi-list mobile-nav-toggle d-xl-none"></i> */}
 
@@ -42,7 +42,8 @@ export default function Header() {
                 icon={faGithub}
                 className="bg-[#2c2f3f] rounded-full box-border aspect-square p-2 ml-2 hover:bg-[#149ddd]"
               />
-              <a
+
+              {/* <a
                 href="https://www.linkedin.com/in/charliealonso002/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -57,34 +58,36 @@ export default function Header() {
                 className="github"
               >
                 <i className="bx bxl-github"></i>
-              </a>
+              </a> */}
             </div>
           </div>
 
-          <nav id="navbar" className="nav-menu navbar">
+          {/* <nav id="navbar" className="nav-menu navbar"> */}
+          <nav id="navbar" className="pt-7">
             <ul>
               <li>
-                <a href="#hero" className="nav-link scrollto active">
+                {/* <a href="#hero" className="nav-link scrollto active"> */}
+                <a href="#hero" className="px-4 py-3 block">
                   <i className="bx bx-home"></i> <span>Home</span>
                 </a>
               </li>
               <li>
-                <a href="#about" className="nav-link scrollto">
+                <a href="#about" className="px-4 py-3 mt-2 block">
                   <i className="bx bx-user"></i> <span>About</span>
                 </a>
               </li>
               <li>
-                <a href="#resume" className="nav-link scrollto">
+                <a href="#resume" className="px-4 py-3 mt-2 block">
                   <i className="bx bx-file-blank"></i> <span>Resume</span>
                 </a>
               </li>
               <li>
-                <a href="#portfolio" className="nav-link scrollto">
+                <a href="#portfolio" className="px-4 py-3 mt-2 block">
                   <i className="bx bx-book-content"></i> <span>Portfolio</span>
                 </a>
               </li>
               <li>
-                <a href="#contact" className="nav-link scrollto">
+                <a href="#contact" className="px-4 py-3 mt-2 block">
                   <i className="bx bx-envelope"></i> <span>Contact</span>
                 </a>
               </li>

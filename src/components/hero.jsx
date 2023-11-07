@@ -3,11 +3,11 @@ export default function Hero() {
     <section
       id="hero"
       //   className="d-flex flex-column justify-content-center align-items-center"
-      className="min-h-screen bg-slate-500 bg-hero-img"
+      className="min-h-screen w-full bg-slate-500 bg-hero-img bg-fixed flex items-center justify-center"
     >
       <div className="hero-container " data-aos="fade-in">
-        <h1>Charlie Alonso</h1>
-        <p>
+        <h1 className="text-3xl text-white font-bold ">Charlie Alonso</h1>
+        <p className="text-2xl text-white font-bold ">
           I'm a{" "}
           <span
             className="typed"

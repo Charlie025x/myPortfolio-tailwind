@@ -1,24 +1,22 @@
 export default function Main() {
   return (
-    <main id="main" className="ml-[300px]">
+    // ml-[300px]
+    <main id="main" className="ml-0">
       {/* ======= About Section ======= */}
       {/* <section id="about" className="about py-16"> */}
       <section id="about" className="py-16">
-        <div className="pl-3">
+        <div className="px-3">
           {/* <div className="section-title"> */}
           <div className="pb-8">
             <h2 className="text-3xl text-[#173b6c] font-bold">About</h2>
           </div>
 
-          <div className="flex">
-            <div className="pr-6">
-              <img
-                src="assets/img/profile-img.jpg"
-                className="img-fluid"
-                alt=""
-              />
+          <div className="flex max-lg:flex-wrap">
+            {/* pr-6 */}
+            <div className="pr-0 lg:w-4/12 lg:px-4">
+              <img className="w-full" src="assets/img/profile-img.jpg" alt="" />
             </div>
-            <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <div className="lg:w-8/12 lg:px-4" data-aos="fade-left">
               <h3 className="text-2xl text-[#173b6c] font-bold mb-2">
                 Front End Web Developer.
               </h3>
@@ -41,7 +39,7 @@ export default function Main() {
       {/* ======= Skills Section ======= */}
       {/* <section id="skills" className="skills section-bg"> */}
       <section id="skills" className="py-16 bg-[#f5f8fd]">
-        <div className="pl-3">
+        <div className="px-3">
           {/* <div className="section-title"> */}
           <div className="pb-8">
             <h2 className="text-3xl text-[#173b6c] font-bold pb-5 mb-5">
@@ -166,7 +164,7 @@ export default function Main() {
 
       {/* ======= Resume Section ======= */}
       <section id="resume" className="py-16">
-        <div className="pl-3">
+        <div className="px-3">
           <div className="pb-8">
             <h2 className="text-3xl text-[#173b6c] font-bold pb-5 mb-5">
               Resume
@@ -293,7 +291,7 @@ export default function Main() {
 
       {/* ======= Contact Section ======= */}
       <section id="contact" className="py-16">
-        <div className="pl-3">
+        <div className="px-3 max-w-[760px] mx-auto">
           <div className="pb-8">
             <h2 className="text-3xl text-[#173b6c] font-bold pb-5 mb-5">
               Contact
@@ -302,7 +300,7 @@ export default function Main() {
           </div>
 
           <div className="row" data-aos="fade-in">
-            <div className="w-5/12">
+            <div className="w-5/12 w-full">
               <div className="p-8 shadow-md">
                 <div className="email">
                   <i className="bi bi-envelope"></i>

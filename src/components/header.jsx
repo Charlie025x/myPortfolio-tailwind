@@ -7,7 +7,8 @@ export default function Header() {
     <>
       <header
         id="header"
-        className=" text-[#ffffff] fixed top-0 left-0 bottom-0 w-[300px] bg-[#040b14] px-4"
+        // todo: add nav menu toggle
+        className=" text-[#ffffff] fixed top-0 left-0 left-[-300px] bottom-0 w-[300px] bg-[#040b14] px-4"
       >
         {/* <i class="bi bi-list mobile-nav-toggle d-xl-none"></i> */}
 

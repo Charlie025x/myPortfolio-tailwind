@@ -8,13 +8,13 @@ export default function Header() {
       <header
         id="header"
         // todo: add nav menu toggle
-        className=" text-[#ffffff] fixed top-0 left-0 left-[-300px] bottom-0 w-[300px] bg-[#040b14] px-4"
+        className=" fixed bottom-0 left-0 left-[-300px] top-0 w-[300px] bg-[#040b14] px-4 text-[#ffffff]"
       >
         {/* <i class="bi bi-list mobile-nav-toggle d-xl-none"></i> */}
 
         <FontAwesomeIcon
           icon={faBars}
-          className="box-border fixed top-5 right-5 text-2xl bg-[#149ddd] aspect-square p-2 rounded-full cursor-pointer"
+          className="fixed right-5 top-5 box-border aspect-square cursor-pointer rounded-full bg-[#149ddd] p-2 text-2xl"
         />
 
         <div className="d-flex flex-column">
@@ -23,7 +23,7 @@ export default function Header() {
               src="assets/img/profile-img.jpg"
               alt=""
               // className="img-fluid rounded-circle"
-              className="rounded-full my-4 mx-auto w-[120px] border-8 border-[#2c2f3f]"
+              className="mx-auto my-4 w-[120px] rounded-full border-8 border-[#2c2f3f]"
             />
             {/* <h1 className="text-light"> */}
             <h1 className="text-center text-2xl">
@@ -37,11 +37,11 @@ export default function Header() {
               {/* <a href="#" className="google-plus"><i className="bx bxl-skype"></i></a> */}
               <FontAwesomeIcon
                 icon={faLinkedinIn}
-                className="bg-[#2c2f3f] rounded-full box-border aspect-square p-2 hover:bg-[#149ddd]"
+                className="box-border aspect-square rounded-full bg-[#2c2f3f] p-2 hover:bg-[#149ddd]"
               />
               <FontAwesomeIcon
                 icon={faGithub}
-                className="bg-[#2c2f3f] rounded-full box-border aspect-square p-2 ml-2 hover:bg-[#149ddd]"
+                className="ml-2 box-border aspect-square rounded-full bg-[#2c2f3f] p-2 hover:bg-[#149ddd]"
               />
 
               {/* <a
@@ -68,27 +68,27 @@ export default function Header() {
             <ul>
               <li>
                 {/* <a href="#hero" className="nav-link scrollto active"> */}
-                <a href="#hero" className="px-4 py-3 block">
+                <a href="#hero" className="block px-4 py-3">
                   <i className="bx bx-home"></i> <span>Home</span>
                 </a>
               </li>
               <li>
-                <a href="#about" className="px-4 py-3 mt-2 block">
+                <a href="#about" className="mt-2 block px-4 py-3">
                   <i className="bx bx-user"></i> <span>About</span>
                 </a>
               </li>
               <li>
-                <a href="#resume" className="px-4 py-3 mt-2 block">
+                <a href="#resume" className="mt-2 block px-4 py-3">
                   <i className="bx bx-file-blank"></i> <span>Resume</span>
                 </a>
               </li>
               <li>
-                <a href="#portfolio" className="px-4 py-3 mt-2 block">
+                <a href="#portfolio" className="mt-2 block px-4 py-3">
                   <i className="bx bx-book-content"></i> <span>Portfolio</span>
                 </a>
               </li>
               <li>
-                <a href="#contact" className="px-4 py-3 mt-2 block">
+                <a href="#contact" className="mt-2 block px-4 py-3">
                   <i className="bx bx-envelope"></i> <span>Contact</span>
                 </a>
               </li>

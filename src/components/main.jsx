@@ -5,10 +5,10 @@ export default function Main() {
       {/* ======= About Section ======= */}
       {/* <section id="about" className="about py-16"> */}
       <section id="about" className="py-16">
-        <div className="px-3">
+        <div className="mx-auto px-3 lg:max-w-6xl">
           {/* <div className="section-title"> */}
           <div className="pb-8">
-            <h2 className="text-3xl text-[#173b6c] font-bold">About</h2>
+            <h2 className="text-3xl font-bold text-[#173b6c]">About</h2>
           </div>
 
           <div className="flex max-lg:flex-wrap">
@@ -17,7 +17,7 @@ export default function Main() {
               <img className="w-full" src="assets/img/profile-img.jpg" alt="" />
             </div>
             <div className="lg:w-8/12 lg:px-4" data-aos="fade-left">
-              <h3 className="text-2xl text-[#173b6c] font-bold mb-2">
+              <h3 className="mb-2 text-2xl font-bold text-[#173b6c]">
                 Front End Web Developer.
               </h3>
               <p className="fst-italic">
@@ -38,122 +38,80 @@ export default function Main() {
 
       {/* ======= Skills Section ======= */}
       {/* <section id="skills" className="skills section-bg"> */}
-      <section id="skills" className="py-16 bg-[#f5f8fd]">
-        <div className="px-3">
+      <section id="skills" className="bg-[#f5f8fd] py-16">
+        <div className="mx-auto px-3 lg:max-w-6xl">
           {/* <div className="section-title"> */}
           <div className="pb-8">
-            <h2 className="text-3xl text-[#173b6c] font-bold pb-5 mb-5">
+            <h2 className="mb-5 pb-5 text-3xl font-bold text-[#173b6c]">
               Skills
             </h2>
             <p>Technologies I have utilized</p>
           </div>
 
-          <div className="row skills-content">
-            <div className="col-lg-6" data-aos="fade-up">
-              <div className="progress">
-                <span className="skill">
+          <div className="lg:flex lg:gap-8">
+            <div className="lg:w-2/4">
+              <div className="h-16">
+                <span className="mb-2 block font-semibold">
                   HTML <i className="val">100%</i>
                 </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="100"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+                <div className="h-3 w-full bg-[#dce8f8]">
+                  <div className="h-3 w-full bg-[#149ddd]"></div>
                 </div>
               </div>
 
-              <div className="progress">
-                <span className="skill">
+              <div className="h-16">
+                <span className="mb-2 block font-semibold">
                   CSS <i className="val">95%</i>
                 </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="95"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+                <div className="h-3 w-full bg-[#dce8f8]">
+                  <div className="h-3 w-[95%] bg-[#149ddd]"></div>
                 </div>
               </div>
 
-              <div className="progress">
-                <span className="skill">
+              <div className="h-16">
+                <span className="mb-2 block font-semibold">
                   JavaScript <i className="val">90%</i>
                 </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+                <div className="h-3 w-full bg-[#dce8f8]">
+                  <div className="h-3 w-[90%] bg-[#149ddd]"></div>
                 </div>
               </div>
 
-              <div className="progress">
-                <span className="skill">
+              <div className="h-16">
+                <span className="mb-2 block font-semibold">
                   Wordpress <i className="val">90%</i>
                 </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+                <div className="h-3 w-full bg-[#dce8f8]">
+                  <div className="h-3 w-[90%] bg-[#149ddd]"></div>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <div className="progress">
-                <span className="skill">
+            <div className="lg:w-2/4">
+              <div className="h-16">
+                <span className="mb-2 block font-semibold">
                   React <i className="val">90%</i>
                 </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+                <div className="h-3 w-full bg-[#dce8f8]">
+                  <div className="h-3 w-[90%] bg-[#149ddd]"></div>
                 </div>
               </div>
 
-              <div className="progress">
-                <span className="skill">
+              <div className="h-16">
+                <span className="mb-2 block font-semibold">
                   Sass <i className="val">90%</i>
                 </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+                <div className="h-3 w-full bg-[#dce8f8]">
+                  <div className="h-3 w-[90%] bg-[#149ddd]"></div>
                 </div>
               </div>
 
-              <div className="progress">
-                <span className="skill">
+              <div className="h-16">
+                <span className="mb-2 block font-semibold">
                   Git <i className="val">90%</i>
                 </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+                <div className="h-3 w-full bg-[#dce8f8]">
+                  <div className="h-3 w-[90%] bg-[#149ddd]"></div>
                 </div>
               </div>
             </div>
@@ -164,9 +122,9 @@ export default function Main() {
 
       {/* ======= Resume Section ======= */}
       <section id="resume" className="py-16">
-        <div className="px-3">
+        <div className="mx-auto px-3 lg:max-w-6xl">
           <div className="pb-8">
-            <h2 className="text-3xl text-[#173b6c] font-bold pb-5 mb-5">
+            <h2 className="mb-5 pb-5 text-3xl font-bold text-[#173b6c]">
               Resume
             </h2>
             {/* <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> */}
@@ -174,7 +132,7 @@ export default function Main() {
 
           <div className="row">
             <div className="col-lg-6" data-aos="fade-up">
-              <h3 className="text-2xl text-[#173b6c] font-bold mb-2">Sumary</h3>
+              <h3 className="mb-2 text-2xl font-bold text-[#173b6c]">Sumary</h3>
               <div className="resume-item pb-0">
                 <h4>Charlie Alonso</h4>
                 <p>
@@ -190,7 +148,7 @@ export default function Main() {
                 </ul>
               </div>
 
-              <h3 className="text-2xl text-[#173b6c] font-bold mb-2">
+              <h3 className="mb-2 text-2xl font-bold text-[#173b6c]">
                 Education
               </h3>
               <div className="resume-item">
@@ -214,7 +172,7 @@ export default function Main() {
               </div>
             </div>
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 className="text-2xl text-[#173b6c] font-bold mb-2">
+              <h3 className="mb-2 text-2xl font-bold text-[#173b6c]">
                 Projects
               </h3>
               <div className="resume-item">
@@ -264,7 +222,7 @@ export default function Main() {
                       <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
                   </ul>
                   </div> */}
-              <h3 className="text-2xl text-[#173b6c] font-bold mb-2">
+              <h3 className="mb-2 text-2xl font-bold text-[#173b6c]">
                 Experience
               </h3>
               <div className="resume-item">
@@ -291,9 +249,9 @@ export default function Main() {
 
       {/* ======= Contact Section ======= */}
       <section id="contact" className="py-16">
-        <div className="px-3 max-w-[760px] mx-auto">
+        <div className="mx-auto max-w-[760px] px-3">
           <div className="pb-8">
-            <h2 className="text-3xl text-[#173b6c] font-bold pb-5 mb-5">
+            <h2 className="mb-5 pb-5 text-3xl font-bold text-[#173b6c]">
               Contact
             </h2>
             <p>Reach me though linkedin, email, or by phone.</p>

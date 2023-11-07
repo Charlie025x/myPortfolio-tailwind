@@ -108,6 +108,15 @@ export default function Main() {
 
               <div className="h-16">
                 <span className="mb-2 block font-semibold">
+                  Tailwind <i className="val">85%</i>
+                </span>
+                <div className="h-3 w-full bg-[#dce8f8]">
+                  <div className="h-3 w-[85%] bg-[#149ddd]"></div>
+                </div>
+              </div>
+
+              <div className="h-16">
+                <span className="mb-2 block font-semibold">
                   Git <i className="val">90%</i>
                 </span>
                 <div className="h-3 w-full bg-[#dce8f8]">
@@ -130,54 +139,58 @@ export default function Main() {
             {/* <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> */}
           </div>
 
-          <div className="row">
-            <div className="col-lg-6" data-aos="fade-up">
+          <div className="gap-8 lg:flex">
+            <div className="lg:w-2/4" data-aos="fade-up">
               <h3 className="mb-2 text-2xl font-bold text-[#173b6c]">Sumary</h3>
-              <div className="resume-item pb-0">
-                <h4>Charlie Alonso</h4>
-                <p>
+              <div className="relative border-l-2 border-[#1f5297] pb-0 pl-5 before:absolute before:left-[-9px] before:top-[0px] before:h-4 before:w-4 before:rounded-full before:border-2 before:border-[#1f5297] before:bg-white">
+                <h4 className="text-lg font-bold">Charlie Alonso</h4>
+                <p className="pb-4">
                   <em>
                     Self taught web developer. 5 years of expirence with
                     front-end stack. 1 year of expirence with back end
                     development.
                   </em>
                 </p>
-                <ul>
-                  <li>(956) 292-9046</li>
-                  <li>charliealonso2001@gmail.com</li>
+                <ul className="mb-4 pl-5">
+                  <li className="pb-2">(956) 292-9046</li>
+                  <li className="pb-2">charliealonso2001@gmail.com</li>
                 </ul>
               </div>
 
               <h3 className="mb-2 text-2xl font-bold text-[#173b6c]">
                 Education
               </h3>
-              <div className="resume-item">
-                <h4>Zero to Mastery Academy</h4>
+              <div className="relative border-l-2 border-[#1f5297] pb-0 pl-5 before:absolute before:left-[-9px] before:top-[0px] before:h-4 before:w-4 before:rounded-full before:border-2 before:border-[#1f5297] before:bg-white">
+                <h4 className="text-lg font-bold">Zero to Mastery Academy</h4>
                 {/* <h5>2015 - 2016</h5> */}
-                <p>
+                <p className="pb-4">
                   <em>Andrei Neagoie's Udemy Course</em>
                 </p>
               </div>
-              <div className="resume-item">
-                <h4>Complete React Developer in 2021</h4>
-                <p>
+              <div className="relative border-l-2 border-[#1f5297] pb-0 pl-5 before:absolute before:left-[-9px] before:top-[0px] before:h-4 before:w-4 before:rounded-full before:border-2 before:border-[#1f5297] before:bg-white">
+                <h4 className="text-lg font-bold">
+                  Complete React Developer in 2021
+                </h4>
+                <p className="pb-4">
                   <em>Andrei Neagoie's Udemy Course</em>
                 </p>
               </div>
-              <div className="resume-item">
-                <h4>Associate's degree in interdisciplinary studies</h4>
-                <p>
+              <div className="relative border-l-2 border-[#1f5297] pb-0 pl-5 before:absolute before:left-[-9px] before:top-[0px] before:h-4 before:w-4 before:rounded-full before:border-2 before:border-[#1f5297] before:bg-white">
+                <h4 className="text-lg font-bold">
+                  Associate's degree in interdisciplinary studies
+                </h4>
+                <p className="pb-0">
                   <em>South Texas College</em>
                 </p>
               </div>
             </div>
-            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div className="lg:w-2/4" data-aos="fade-up" data-aos-delay="100">
               <h3 className="mb-2 text-2xl font-bold text-[#173b6c]">
                 Projects
               </h3>
-              <div className="resume-item">
-                <h4>CRWN Clothing</h4>
-                <p>
+              <div className="relative border-l-2 border-[#1f5297] pb-0 pl-5 before:absolute before:left-[-9px] before:top-[0px] before:h-4 before:w-4 before:rounded-full before:border-2 before:border-[#1f5297] before:bg-white">
+                <h4 className="text-lg font-bold">CRWN Clothing</h4>
+                <p className="pb-4">
                   <em>E-commerce React app</em>
                 </p>
                 {/* <ul>
@@ -187,9 +200,9 @@ export default function Main() {
                       <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
                   </ul> */}
               </div>
-              <div className="resume-item">
-                <h4>Corporate Demo</h4>
-                <p>
+              <div className="relative border-l-2 border-[#1f5297] pb-0 pl-5 before:absolute before:left-[-9px] before:top-[0px] before:h-4 before:w-4 before:rounded-full before:border-2 before:border-[#1f5297] before:bg-white">
+                <h4 className="text-lg font-bold">Corporate Demo</h4>
+                <p className="pb-4">
                   <em>Generic Business Website</em>
                 </p>
                 {/* <ul>
@@ -199,9 +212,9 @@ export default function Main() {
                       <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
                   </ul> */}
               </div>
-              <div className="resume-item">
-                <h4>The Flux</h4>
-                <p>
+              <div className="relative border-l-2 border-[#1f5297] pb-0 pl-5 before:absolute before:left-[-9px] before:top-[0px] before:h-4 before:w-4 before:rounded-full before:border-2 before:border-[#1f5297] before:bg-white">
+                <h4 className="text-lg font-bold">The Flux</h4>
+                <p className="pb-0">
                   <em>Comic Book Store Business website</em>
                 </p>
                 {/* <ul>
@@ -225,12 +238,14 @@ export default function Main() {
               <h3 className="mb-2 text-2xl font-bold text-[#173b6c]">
                 Experience
               </h3>
-              <div className="resume-item">
-                <h4>Front-end Web Developer, 2022-2023</h4>
-                <p>
+              <div className="relative border-l-2 border-[#1f5297] pb-0 pl-5 before:absolute before:left-[-9px] before:top-[0px] before:h-4 before:w-4 before:rounded-full before:border-2 before:border-[#1f5297] before:bg-white">
+                <h4 className="text-lg font-bold">
+                  Front-end Web Developer, 2022-2023
+                </h4>
+                <p className="pb-4">
                   <em>Dealbamathcenter.com</em>
                 </p>
-                <ul>
+                <ul className="pl-5">
                   <li>Design and maintain pages using html and css.</li>
                   <li>
                     Create engaging and interactive math problems to retain our

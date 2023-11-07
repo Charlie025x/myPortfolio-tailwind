@@ -18,13 +18,13 @@ export default function Header() {
         // todo: add nav menu toggle | left-0 left-[-300px]
         className={` fixed bottom-0 select-none ${
           headerState ? "left-0" : "left-[-300px]"
-        } top-0 w-[300px] bg-[#040b14] px-4 text-[#ffffff]`}
+        } top-0 z-10 w-[300px] bg-[#040b14] bg-cover px-4 text-[#ffffff] xl:left-0`}
       >
         {/* <i class="bi bi-list mobile-nav-toggle d-xl-none"></i> */}
 
         <FontAwesomeIcon
           icon={headerState ? faX : faBars}
-          className="fixed right-5 top-5 box-border aspect-square cursor-pointer rounded-full bg-[#149ddd] p-2 text-2xl"
+          className="fixed right-5 top-5 box-border aspect-square cursor-pointer rounded-full bg-[#149ddd] p-2 text-2xl xl:sr-only"
           onClick={handleClick}
         />
 

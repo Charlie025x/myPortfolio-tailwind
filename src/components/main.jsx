@@ -1,7 +1,7 @@
 export default function Main() {
   return (
     // ml-[300px]
-    <main id="main" className="ml-0">
+    <main id="main" className="ml-0 xl:ml-[300px]">
       {/* ======= About Section ======= */}
       {/* <section id="about" className="about py-16"> */}
       <section id="about" className="py-16">

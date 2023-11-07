@@ -179,7 +179,7 @@ export default function Main() {
                 <h4 className="text-lg font-bold">
                   Associate's degree in interdisciplinary studies
                 </h4>
-                <p className="pb-0">
+                <p className="mb-4 pb-0">
                   <em>South Texas College</em>
                 </p>
               </div>
@@ -214,7 +214,7 @@ export default function Main() {
               </div>
               <div className="relative border-l-2 border-[#1f5297] pb-0 pl-5 before:absolute before:left-[-9px] before:top-[0px] before:h-4 before:w-4 before:rounded-full before:border-2 before:border-[#1f5297] before:bg-white">
                 <h4 className="text-lg font-bold">The Flux</h4>
-                <p className="pb-0">
+                <p className="mb-4 pb-0">
                   <em>Comic Book Store Business website</em>
                 </p>
                 {/* <ul>
@@ -246,8 +246,10 @@ export default function Main() {
                   <em>Dealbamathcenter.com</em>
                 </p>
                 <ul className="pl-5">
-                  <li>Design and maintain pages using html and css.</li>
-                  <li>
+                  <li className="pb-2">
+                    Design and maintain pages using html and css.
+                  </li>
+                  <li className="pb-2">
                     Create engaging and interactive math problems to retain our
                     students attention and impove math scores by using CSS3 and
                     Javascript.

@@ -1,20 +1,31 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 
+import { useState } from "react";
+
 export default function Header() {
+  const [headerState, setHeaderState] = useState(false);
+
+  const handleClick = () => {
+    setHeaderState((headerState) => !headerState);
+  };
+
   return (
     <>
       <header
         id="header"
-        // todo: add nav menu toggle
-        className=" fixed bottom-0 left-0 left-[-300px] top-0 w-[300px] bg-[#040b14] px-4 text-[#ffffff]"
+        // todo: add nav menu toggle | left-0 left-[-300px]
+        className={` fixed bottom-0 select-none ${
+          headerState ? "left-0" : "left-[-300px]"
+        } top-0 w-[300px] bg-[#040b14] px-4 text-[#ffffff]`}
       >
         {/* <i class="bi bi-list mobile-nav-toggle d-xl-none"></i> */}
 
         <FontAwesomeIcon
-          icon={faBars}
+          icon={headerState ? faX : faBars}
           className="fixed right-5 top-5 box-border aspect-square cursor-pointer rounded-full bg-[#149ddd] p-2 text-2xl"
+          onClick={handleClick}
         />
 
         <div className="d-flex flex-column">

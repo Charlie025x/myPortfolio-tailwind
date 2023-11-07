@@ -3,7 +3,7 @@ export default function Hero() {
     <section
       id="hero"
       //   className="d-flex flex-column justify-content-center align-items-center"
-      className="min-h-screen bg-slate-500"
+      className="min-h-screen bg-slate-500 bg-hero-img"
     >
       <div className="hero-container " data-aos="fade-in">
         <h1>Charlie Alonso</h1>

@@ -79,27 +79,47 @@ export default function Header() {
             <ul>
               <li>
                 {/* <a href="#hero" className="nav-link scrollto active"> */}
-                <a href="#hero" className="block px-4 py-3">
+                <a
+                  href="#hero"
+                  className="block px-4 py-3"
+                  onClick={handleClick}
+                >
                   <i className="bx bx-home"></i> <span>Home</span>
                 </a>
               </li>
               <li>
-                <a href="#about" className="mt-2 block px-4 py-3">
+                <a
+                  href="#about"
+                  className="mt-2 block px-4 py-3"
+                  onClick={handleClick}
+                >
                   <i className="bx bx-user"></i> <span>About</span>
                 </a>
               </li>
               <li>
-                <a href="#resume" className="mt-2 block px-4 py-3">
+                <a
+                  href="#resume"
+                  className="mt-2 block px-4 py-3"
+                  onClick={handleClick}
+                >
                   <i className="bx bx-file-blank"></i> <span>Resume</span>
                 </a>
               </li>
               <li>
-                <a href="#portfolio" className="mt-2 block px-4 py-3">
+                <a
+                  href="#portfolio"
+                  className="mt-2 block px-4 py-3"
+                  onClick={handleClick}
+                >
                   <i className="bx bx-book-content"></i> <span>Portfolio</span>
                 </a>
               </li>
               <li>
-                <a href="#contact" className="mt-2 block px-4 py-3">
+                <a
+                  href="#contact"
+                  className="mt-2 block px-4 py-3"
+                  onClick={handleClick}
+                >
                   <i className="bx bx-envelope"></i> <span>Contact</span>
                 </a>
               </li>

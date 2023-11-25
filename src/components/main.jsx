@@ -1,7 +1,9 @@
+import Portfolio from "./portfolio";
+
 export default function Main() {
   return (
     // ml-[300px]
-    <main id="main" className="ml-0 xl:ml-[300px]">
+    <main id="main" className="ml-0 select-none xl:ml-[300px]">
       {/* ======= About Section ======= */}
       {/* <section id="about" className="about py-16"> */}
       <section id="about" className="py-16">
@@ -22,12 +24,12 @@ export default function Main() {
               </h3>
               <p className="fst-italic">
                 Hi, I'm a self-taught Front end Web Developer, born and raised
-                in the state of Texas. For as far back as I can remember, I
-                always loved makeing art and playing challenging games.
-                Eventually I was introduced to web development, a profession
-                that essientialy combines my two favorite hobbies. Digital
-                devices became my canvas, VScode is my paint-brush, and
-                programing became my favorite game.
+                in the state of Texas. For as far back as I can remember, I've
+                always loved makeing art and playing video games. Eventually I
+                was introduced to web development, a profession that essientialy
+                combines my two favorite hobbies. Digital devices became my
+                canvas, VScode is my paint-brush, and programing became my
+                favorite game.
                 <br />I finally found my calling.
               </p>
             </div>
@@ -152,8 +154,10 @@ export default function Main() {
                   </em>
                 </p>
                 <ul className="mb-4 pl-5">
-                  <li className="pb-2">(956) 292-9046</li>
-                  <li className="pb-2">charliealonso2001@gmail.com</li>
+                  <li className="select-text pb-2">(956) 292-9046</li>
+                  <li className="select-text pb-2">
+                    charliealonso2001@gmail.com
+                  </li>
                 </ul>
               </div>
 
@@ -168,9 +172,7 @@ export default function Main() {
                 </p>
               </div>
               <div className="relative border-l-2 border-[#1f5297] pb-0 pl-5 before:absolute before:left-[-9px] before:top-[0px] before:h-4 before:w-4 before:rounded-full before:border-2 before:border-[#1f5297] before:bg-white">
-                <h4 className="text-lg font-bold">
-                  Complete React Developer in 2021
-                </h4>
+                <h4 className="text-lg font-bold">Complete React Developer</h4>
                 <p className="pb-4">
                   <em>Andrei Neagoie's Udemy Course</em>
                 </p>
@@ -189,9 +191,9 @@ export default function Main() {
                 Projects
               </h3>
               <div className="relative border-l-2 border-[#1f5297] pb-0 pl-5 before:absolute before:left-[-9px] before:top-[0px] before:h-4 before:w-4 before:rounded-full before:border-2 before:border-[#1f5297] before:bg-white">
-                <h4 className="text-lg font-bold">CRWN Clothing</h4>
+                <h4 className="text-lg font-bold">De Alba Math Center</h4>
                 <p className="pb-4">
-                  <em>E-commerce React app</em>
+                  <em>Online math platform</em>
                 </p>
                 {/* <ul>
                       <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
@@ -201,9 +203,9 @@ export default function Main() {
                   </ul> */}
               </div>
               <div className="relative border-l-2 border-[#1f5297] pb-0 pl-5 before:absolute before:left-[-9px] before:top-[0px] before:h-4 before:w-4 before:rounded-full before:border-2 before:border-[#1f5297] before:bg-white">
-                <h4 className="text-lg font-bold">Corporate Demo</h4>
+                <h4 className="text-lg font-bold">A-cade</h4>
                 <p className="pb-4">
-                  <em>Generic Business Website</em>
+                  <em>Arcade Business website</em>
                 </p>
                 {/* <ul>
                       <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
@@ -213,9 +215,9 @@ export default function Main() {
                   </ul> */}
               </div>
               <div className="relative border-l-2 border-[#1f5297] pb-0 pl-5 before:absolute before:left-[-9px] before:top-[0px] before:h-4 before:w-4 before:rounded-full before:border-2 before:border-[#1f5297] before:bg-white">
-                <h4 className="text-lg font-bold">The Flux</h4>
+                <h4 className="text-lg font-bold">Interactive Card Form</h4>
                 <p className="mb-4 pb-0">
-                  <em>Comic Book Store Business website</em>
+                  <em>Creditcard form demo</em>
                 </p>
                 {/* <ul>
                       <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
@@ -262,31 +264,35 @@ export default function Main() {
       </section>
       {/* End Resume Section */}
 
-      {/* <PortfolioSection /> */}
+      <Portfolio />
 
       {/* ======= Contact Section ======= */}
       <section id="contact" className="py-16">
         <div className="mx-auto max-w-[760px] px-3">
           <div className="pb-8">
             <h2 className="mb-5 pb-5 text-3xl font-bold text-[#173b6c]">
-              Contact
+              Contact me
             </h2>
-            <p>Reach me though linkedin, email, or by phone.</p>
+            <p>
+              Lets get in touch. Feel free to reach me though email or by phone.
+            </p>
           </div>
 
           <div className="row" data-aos="fade-in">
-            <div className="w-5/12 w-full">
+            <div className="w-full">
               <div className="p-8 shadow-md">
                 <div className="email">
                   <i className="bi bi-envelope"></i>
-                  <h4>Email:</h4>
-                  <p>charliealonso2001@gmail.com</p>
+                  <h4 className="font-bold text-[#173b6c]">Email me at:</h4>
+                  <p className="select-text">charliealonso2001@gmail.com</p>
                 </div>
 
                 <div className="phone">
                   <i className="bi bi-phone"></i>
-                  <h4>Call:</h4>
-                  <p>956 292 9046</p>
+                  <h4 className="font-bold text-[#173b6c]">
+                    Or give me a Call to:
+                  </h4>
+                  <p className="select-text">(956)292-9046</p>
                 </div>
               </div>
             </div>

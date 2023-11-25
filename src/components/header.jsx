@@ -46,14 +46,21 @@ export default function Header() {
               {/* <a href="#" className="facebook"><i className=""></i></a> */}
               {/* <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a> */}
               {/* <a href="#" className="google-plus"><i className="bx bxl-skype"></i></a> */}
-              <FontAwesomeIcon
-                icon={faLinkedinIn}
-                className="box-border aspect-square rounded-full bg-[#2c2f3f] p-2 hover:bg-[#149ddd]"
-              />
-              <FontAwesomeIcon
-                icon={faGithub}
-                className="ml-2 box-border aspect-square rounded-full bg-[#2c2f3f] p-2 hover:bg-[#149ddd]"
-              />
+              <a
+                href="https://www.linkedin.com/in/charliealonso002/"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedinIn}
+                  className="box-border aspect-square rounded-full bg-[#2c2f3f] p-2 hover:bg-[#149ddd]"
+                />
+              </a>
+              <a href="https://github.com/Charlie025x" target="_blank">
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className="ml-2 box-border aspect-square rounded-full bg-[#2c2f3f] p-2 hover:bg-[#149ddd]"
+                />
+              </a>
 
               {/* <a
                 href="https://www.linkedin.com/in/charliealonso002/"

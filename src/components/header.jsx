@@ -5,25 +5,23 @@ import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { useState } from "react";
 
 export default function Header() {
-  const [headerState, setHeaderState] = useState(false);
+  const [navState, setnavState] = useState(false);
 
   const handleClick = () => {
-    setHeaderState((headerState) => !headerState);
+    setnavState((navState) => !navState);
   };
 
   return (
     <>
       <header
         id="header"
-        // todo: add nav menu toggle | left-0 left-[-300px]
-        className={` fixed bottom-0 select-none ${
-          headerState ? "left-0" : "left-[-300px]"
-        } top-0 z-10 w-[300px] bg-[#040b14] bg-cover px-4 text-[#ffffff] xl:left-0`}
+        className={` fixed bottom-0 top-0  z-20 w-[300px] select-none bg-[#040b14] bg-cover px-4 text-[#ffffff] max-xl:transition-all max-lg:ease-in xl:left-0
+        ${navState ? "left-0" : "left-[-300px]"}`}
       >
         {/* <i class="bi bi-list mobile-nav-toggle d-xl-none"></i> */}
 
         <FontAwesomeIcon
-          icon={headerState ? faX : faBars}
+          icon={navState ? faX : faBars}
           className="fixed right-5 top-5 box-border aspect-square cursor-pointer rounded-full bg-[#149ddd] p-2 text-2xl xl:sr-only"
           onClick={handleClick}
         />

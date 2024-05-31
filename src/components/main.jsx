@@ -1,4 +1,6 @@
 import Portfolio from "./portfolio";
+import Skills from "./Skills";
+import CharliealonsoResumeMay31 from "../assets/CharlieAlonsoResumeMay31.pdf";
 
 export default function Main() {
   return (
@@ -7,7 +9,7 @@ export default function Main() {
       {/* ======= About Section ======= */}
       {/* <section id="about" className="about py-16"> */}
       <section id="about" className="py-16">
-        <div className="mx-auto px-3 lg:max-w-6xl">
+        <div className="relative mx-auto px-3 lg:max-w-6xl">
           {/* <div className="section-title"> */}
           <div className="pb-8">
             <h2 className="text-3xl font-bold text-[#173b6c]">About</h2>
@@ -34,102 +36,19 @@ export default function Main() {
               </p>
             </div>
           </div>
+          <button className="absolute bottom-0 right-0 bg-slate-400 px-6 py-2 hover:bg-[#149ddd]">
+            <a
+              href={CharliealonsoResumeMay31}
+              download="CharliealonsoResumeMay31"
+            >
+              Download
+            </a>
+          </button>
         </div>
       </section>
       {/* End About Section */}
 
-      {/* ======= Skills Section ======= */}
-      {/* <section id="skills" className="skills section-bg"> */}
-      <section id="skills" className="bg-[#f5f8fd] py-16">
-        <div className="mx-auto px-3 lg:max-w-6xl">
-          {/* <div className="section-title"> */}
-          <div className="pb-8">
-            <h2 className="mb-5 pb-5 text-3xl font-bold text-[#173b6c]">
-              Skills
-            </h2>
-            <p>Technologies I have utilized</p>
-          </div>
-
-          <div className="lg:flex lg:gap-8">
-            <div className="lg:w-2/4">
-              <div className="h-16">
-                <span className="mb-2 block font-semibold">
-                  HTML <i className="val">100%</i>
-                </span>
-                <div className="h-3 w-full bg-[#dce8f8]">
-                  <div className="h-3 w-full bg-[#149ddd]"></div>
-                </div>
-              </div>
-
-              <div className="h-16">
-                <span className="mb-2 block font-semibold">
-                  CSS <i className="val">95%</i>
-                </span>
-                <div className="h-3 w-full bg-[#dce8f8]">
-                  <div className="h-3 w-[95%] bg-[#149ddd]"></div>
-                </div>
-              </div>
-
-              <div className="h-16">
-                <span className="mb-2 block font-semibold">
-                  JavaScript <i className="val">90%</i>
-                </span>
-                <div className="h-3 w-full bg-[#dce8f8]">
-                  <div className="h-3 w-[90%] bg-[#149ddd]"></div>
-                </div>
-              </div>
-
-              <div className="h-16">
-                <span className="mb-2 block font-semibold">
-                  Wordpress <i className="val">90%</i>
-                </span>
-                <div className="h-3 w-full bg-[#dce8f8]">
-                  <div className="h-3 w-[90%] bg-[#149ddd]"></div>
-                </div>
-              </div>
-            </div>
-
-            <div className="lg:w-2/4">
-              <div className="h-16">
-                <span className="mb-2 block font-semibold">
-                  React <i className="val">90%</i>
-                </span>
-                <div className="h-3 w-full bg-[#dce8f8]">
-                  <div className="h-3 w-[90%] bg-[#149ddd]"></div>
-                </div>
-              </div>
-
-              <div className="h-16">
-                <span className="mb-2 block font-semibold">
-                  Sass <i className="val">90%</i>
-                </span>
-                <div className="h-3 w-full bg-[#dce8f8]">
-                  <div className="h-3 w-[90%] bg-[#149ddd]"></div>
-                </div>
-              </div>
-
-              <div className="h-16">
-                <span className="mb-2 block font-semibold">
-                  Tailwind <i className="val">85%</i>
-                </span>
-                <div className="h-3 w-full bg-[#dce8f8]">
-                  <div className="h-3 w-[85%] bg-[#149ddd]"></div>
-                </div>
-              </div>
-
-              <div className="h-16">
-                <span className="mb-2 block font-semibold">
-                  Git <i className="val">90%</i>
-                </span>
-                <div className="h-3 w-full bg-[#dce8f8]">
-                  <div className="h-3 w-[90%] bg-[#149ddd]"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* End Skills Section */}
+      <Skills />
 
       {/* ======= Resume Section ======= */}
       <section id="resume" className="py-16">
@@ -148,9 +67,7 @@ export default function Main() {
                 <h4 className="text-lg font-bold">Charlie Alonso</h4>
                 <p className="pb-4">
                   <em>
-                    Self taught web developer. 5 years of expirence with
-                    front-end stack. 1 year of expirence with back end
-                    development.
+                    Web developer. 5 years of expirence with front-end stack.
                   </em>
                 </p>
                 <ul className="mb-4 pl-5">
@@ -203,9 +120,9 @@ export default function Main() {
                   </ul> */}
               </div>
               <div className="relative border-l-2 border-[#1f5297] pb-0 pl-5 before:absolute before:left-[-9px] before:top-[0px] before:h-4 before:w-4 before:rounded-full before:border-2 before:border-[#1f5297] before:bg-white">
-                <h4 className="text-lg font-bold">A-cade</h4>
+                <h4 className="text-lg font-bold">Age Calculator App</h4>
                 <p className="pb-4">
-                  <em>Arcade Business website</em>
+                  <em>Typescript form demo</em>
                 </p>
                 {/* <ul>
                       <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>

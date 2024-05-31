@@ -31,18 +31,20 @@ export default function Portfolio() {
             </div>
             {/* portfolio item */}
             <div className="grid overflow-hidden rounded-md bg-white">
-              <img src="./assets/img/portfolio/a-cade.png" alt="" />
-              <h3 className="p-4 pb-0 font-bold">A-cade</h3>
+              <img src="./assets/img/portfolio/age-calculator-app.png" alt="" />
+              <h3 className="p-4 pb-0 font-bold">Age Calculator App</h3>
               <p className="p-4 pt-2 text-sm">
-                An arcade business site. Comes complete with a landing page, an
-                arcade preview page, and a contact page. Put together using{" "}
-                <a className="font-bold">Wordpress</a> and the{" "}
-                <a className="font-bold">Elementor</a> plugin.
+                Your birthday goes in, your age comes out. Simple right? Project
+                was built using a combination of{" "}
+                <a className="font-bold">React</a> and{" "}
+                <a className="font-bold">Typescript</a>, form handling was done
+                with <a className="font-bold">React-hook-form</a>.
               </p>
+
               <a
-                href="https://a-cade.charliemikealonso.com/"
+                href="https://charlie025x.github.io/age-calculator-app/"
                 target="_blank"
-                className="py-.5 mx-4 mb-4 mt-2 block self-end rounded-md bg-black px-4 text-center font-bold text-white hover:bg-slate-700"
+                className="py-.5 mx-4 mb-4 mt-2  self-end rounded-md bg-black px-4 text-center font-bold text-white hover:bg-slate-700"
               >
                 Live Demo
               </a>
@@ -83,13 +85,13 @@ export default function Portfolio() {
               <h3 className="p-4 pb-0 font-bold">Tip Calculator App</h3>
               <p className="p-4 pt-2 text-sm">
                 You want to give your waitress a generous 40% tip. But then you
-                realize, you left your math skills behind at college. That's
+                realize, you left your math skills behind at school. That's
                 where my Tip Calculator App comes in. Coded using{" "}
                 <a className="font-bold">React</a> and designed with{" "}
                 <a className="font-bold">SCSS</a>.
               </p>
               <a
-                href="https://tip-calculator-app.charliemikealonso.com/"
+                href="https://charlie025x.github.io/Tip-calculator-app/"
                 target="_blank"
                 className="py-.5 mx-4 mb-4 mt-2 block self-end rounded-md bg-black px-4 text-center font-bold text-white hover:bg-slate-700"
               >

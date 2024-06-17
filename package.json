@@ -2,7 +2,7 @@
   "name": "myportfolio-tailwind",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Charlie025x.github.io/myPortfolio-tailwind/",
+  "homepage": "https://charliemikealonso.com",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

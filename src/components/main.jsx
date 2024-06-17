@@ -1,6 +1,6 @@
 import Portfolio from "./portfolio";
 import Skills from "./Skills";
-import CharliealonsoResumeMay31 from "../assets/CharlieAlonsoResumeMay31.pdf";
+import CharlieAlonsoResume from "../assets/CharlieAlonsoResume.pdf";
 
 export default function Main() {
   return (
@@ -36,12 +36,13 @@ export default function Main() {
               </p>
             </div>
           </div>
-          <button className="absolute bottom-0 right-0 bg-slate-400 px-6 py-2 hover:bg-[#149ddd]">
+          <button className="absolute bottom-0 right-0 bg-slate-300 px-6 py-2 hover:bg-[#149ddd]">
             <a
-              href={CharliealonsoResumeMay31}
-              download="CharliealonsoResumeMay31"
+              href={CharlieAlonsoResume}
+              download="CharlieAlonsoResume"
+              className=" font-bold"
             >
-              Download
+              Download Resume
             </a>
           </button>
         </div>
@@ -120,9 +121,9 @@ export default function Main() {
                   </ul> */}
               </div>
               <div className="relative border-l-2 border-[#1f5297] pb-0 pl-5 before:absolute before:left-[-9px] before:top-[0px] before:h-4 before:w-4 before:rounded-full before:border-2 before:border-[#1f5297] before:bg-white">
-                <h4 className="text-lg font-bold">Age Calculator App</h4>
+                <h4 className="text-lg font-bold">Loan Dash</h4>
                 <p className="pb-4">
-                  <em>Typescript form demo</em>
+                  <em>Enterprise Student Loan Dashboard</em>
                 </p>
                 {/* <ul>
                       <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
